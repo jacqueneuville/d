@@ -2,12 +2,12 @@ module tutorial;
 
 import std.stdio;
 
+uint squareIt(uint x) {
+  return x * x;
+}
+
 void main() {
 
-	writefln("What is your name?");
-
-	string name = readln();
-
-	writefln("Hello ", name);
+	writeln(squareIt(3));
 
 }
