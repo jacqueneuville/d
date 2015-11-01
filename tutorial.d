@@ -2,12 +2,16 @@ module tutorial;
 
 import std.stdio;
 
-uint squareIt(uint x) {
-  return x * x;
+struct Person
+{
+    string firstName;
+    string lastName;
 }
 
 void main() {
 
-	writeln(squareIt(3));
+	Person person;
+	person.firstName = "Jacque";
+	person.lastName = "Neuville";
 
 }
