@@ -1,15 +1,14 @@
 module tutorial;
 
 import std.stdio;
-import std.range : chain;
+import std.algorithm : filter;
 
 void main() {
 
-    int[] firstArray = [ 1, 2, 3 ];
-    int[] secondArray = [ 4, 5, 6 ];
+    int[] arr = [ 1, 2, 3, 4, 5 ];
 
-    auto chained = chain(firstArray, secondArray);
+    auto filtered = filter!(a => a < 3)(arr);
 
-    writeln(chained);
+    writeln(filtered);
 
 }
