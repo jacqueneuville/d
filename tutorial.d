@@ -4,9 +4,8 @@ import std.stdio;
 
 void main() {
 
-    int someNumber = 2;
+    int zeroValue;
 
-	writeln(int.min);
-	writeln(int.max);
+	writeln(zeroValue);
 
 }
