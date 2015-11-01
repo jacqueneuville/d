@@ -4,8 +4,11 @@ import std.stdio;
 
 void main() {
 
-    int zeroValue;
+    string first = "A";
+    string second = "B";
 
-    writefln("Zero value: %d", zeroValue);
+    writeln(first < second);
+    writeln(first > second);
+    writeln(first == second);
 
 }
