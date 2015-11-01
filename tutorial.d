@@ -1,10 +1,10 @@
 module tutorial;
 
 import std.stdio;
-import std.algorithm : each;
+import std.algorithm : sum;
 
 void main() {
 
-    [1, 2, 3].each!(number => writeln(number));
+    writeln(sum([1, 2, 3]));
 
 }
