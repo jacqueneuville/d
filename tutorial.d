@@ -6,10 +6,6 @@ void main() {
 
     int zeroValue;
 
-    for (int i = 1; i <= 10; i++) {
-
-        writeln(i);
-
-    }
+    writefln("Zero value: %d", zeroValue);
 
 }
