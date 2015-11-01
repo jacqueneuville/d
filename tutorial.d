@@ -1,29 +1,15 @@
 module tutorial;
 
 import std.stdio;
-
-class Person {
-
-  private string firstName;
-
-  this (string firstName) {
-
-    firstName = firstName;
-
-    writeln("constructed");
-  }
-
-  ~this () {
-
-    writeln("destroyed");
-
-  }
-}
+import std.range : chain;
 
 void main() {
 
-    auto jacque = new Person("Jacque");
+    int[] firstArray = [ 1, 2, 3 ];
+    int[] secondArray = [ 4, 5, 6 ];
 
+    auto chained = chain(firstArray, secondArray);
 
+    writeln(chained);
 
 }
