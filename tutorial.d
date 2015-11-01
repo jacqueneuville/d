@@ -4,6 +4,9 @@ import std.stdio;
 
 void main() {
 
-    assert(false);
+    writeln(int.init);
+    writeln(char.init);
+    writeln(string.init);
+    writeln(bool.init);
 
 }
