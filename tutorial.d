@@ -4,11 +4,10 @@ import std.stdio;
 
 void main() {
 
-    string first = "A";
-    string second = "B";
+	writefln("What is your name?");
 
-    writeln(first < second);
-    writeln(first > second);
-    writeln(first == second);
+	string name = readln();
+
+	writefln("Hello ", name);
 
 }
