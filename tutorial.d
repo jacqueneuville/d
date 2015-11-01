@@ -4,6 +4,8 @@ import std.stdio;
 
 void main() {
 
-	writeln("Hello, World!");
+    int someNumber = 2;
+
+	writeln(someNumber);
 
 }
