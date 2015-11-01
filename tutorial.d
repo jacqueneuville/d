@@ -6,8 +6,10 @@ void main() {
 
     int zeroValue;
 
-    if (zeroValue == 0)
-        writef("It's a zero value!");
-    else
-        writef("It's not a zero value!");
+    for (int i = 1; i <= 10; i++) {
+
+        writeln(i);
+
+    }
+
 }
