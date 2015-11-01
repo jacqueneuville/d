@@ -6,6 +6,7 @@ void main() {
 
     int someNumber = 2;
 
-	writeln(someNumber);
+	writeln(int.min);
+	writeln(int.max);
 
 }
