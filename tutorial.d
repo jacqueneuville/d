@@ -1,12 +1,10 @@
 module tutorial;
 
 import std.stdio;
-import std.algorithm : min;
-import std.algorithm : max;
+import std.algorithm : each;
 
 void main() {
 
-    writeln(min(2, 4, 6));
-    writeln(max(2, 4, 6));
+    [1, 2, 3].each!(number => writeln(number));
 
 }
